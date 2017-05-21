@@ -1,10 +1,11 @@
-<?php session_start();?>
+﻿<?php session_start();?>
 <?php
     require "../admin/sql.php";
     require "jsonHelper.php";		//json格式化字符串
 
     $ID = $_SESSION["id"];		//获取当前用户ID
   //  $ID = "5";
+
 
 	//判断用户的权限， 市或省
     $sql = "select * from user WHERE id=".$ID;

@@ -1,11 +1,12 @@
-<?php
+﻿<?php
 session_start();
 /**
  * Created by PhpStorm.
- * User: 张伟
- * Date: 2016-03-28
+ * User: 高凯辉
+ * Date: 2017-05-22
  * Time: 14:36
  */
+
 
 require "../../admin/sql.php";
 

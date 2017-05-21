@@ -1,6 +1,3 @@
-
-
-
 <!doctype html>
 <?php session_start();?>
 <html>
@@ -8,7 +5,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/login.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/s-logo.png" >
@@ -26,7 +22,7 @@
     
 	<div class="row-fluid" style="padding-top:50px">
 		<div class="col-md-2 col-md-offset-2">
-			<img alt="150x150" src="img/logo.png" width="100" height="100"
+			<img alt="150x150" src="img/b-logo.png" width="100" height="100"
             	/>
 		</div>
 		<div class="col-md-5">

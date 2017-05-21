@@ -1,10 +1,10 @@
-<?php
+﻿<?php
 session_start();
 /**
  * Created by PhpStorm.
- * User: 张伟
- * Date: 2016-03-28
- * Time: 13:42
+ * User: 高凯辉
+ * Date: 2017-05-22
+ * Time: 17:36
  */
 
 require "../../admin/sql.php";
@@ -12,7 +12,6 @@ require "../../admin/sql.php";
 $sql="select * from entinfo where admin_id='".$_SESSION["id"]."'";
 $result=mysql_query($sql);
 $row=mysql_fetch_array($result);
-
 
 $sql="update entinfo set code='".$_POST["code"]."',namech='".$_POST["namech"]."'".
     ",nature='".$_POST["nature"]."'".

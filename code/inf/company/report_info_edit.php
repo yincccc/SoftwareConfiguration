@@ -1,12 +1,13 @@
-<?php
+﻿<?php
 session_start();
 /**
  * Created by PhpStorm.
- * User: 张伟
- * Date: 2016-03-28
- * Time: 14:12
+ * User: 高凯辉
+ * Date: 2017-05-22
+ * Time: 14:56
  */
 require "../../admin/sql.php";
+
 
 $sql="update entjobless set first_num='".$_POST["first_num"]."',".
     "now_num='".$_POST["now_num"]."',reduce_type='".$_POST["reduce_type"]."',".

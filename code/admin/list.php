@@ -1,11 +1,11 @@
 <!doctype html>
 <?php session_start();?>
 <html lang="zh-CN">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 使用Bootstrap必须按照这样引用3个meta-->
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/jquery-ui.css" rel="stylesheet">
@@ -213,21 +213,6 @@
                             'style="border-radius: 0px">已通过</button>'.
                             '</td></tr>';
                     }
-                    //省已上报==>没有上报
-//                    else if($row["status"]==12 && $privilege==3){
-//
-//                        echo '<tr><td colspan="3"></td><td>'.
-//                            '<button class="btn btn-primary center-block"'.
-//                            'style="border-radius: 0px">已上报</button>'.
-//                            '</td></tr>';
-//                    }
-                    //省已退回==>和企业退回合并，将status改为2
-//                    else if($row["status"]==13 && $privilege==3){
-//                        echo '<tr><td colspan="3"></td><td>'.
-//                            '<button class="btn btn-primary center-block"'.
-//                            'style="border-radius: 0px">已退回给市修改</button>'.
-//                            '</td></tr>';
-//                    }
 
                     echo "</tbody></table>";
 

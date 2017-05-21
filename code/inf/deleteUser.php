@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 /**
  * Created by 高凯辉 on 2017-05-26.
@@ -13,6 +13,7 @@ $count=mysql_num_rows($checkResult);
 if($count>0){
     echo 0;
 }
+
 
 $sql="delete from user where id='".$_POST["id"]."'";
 $result=mysql_query($sql);

@@ -1,11 +1,10 @@
-<?php
+﻿<?php
 session_start();
 /**
  * Created by PhpStorm.
- * 获取
- * User: 张伟
- * Date: 2016-03-29
- * Time: 19:45
+ * User: 高凯辉
+ * Date: 2017-05-25
+ * Time: 19:56
  */
 
 /**

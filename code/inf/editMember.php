@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by 高凯辉 on 2017-05-26.
  */
@@ -9,5 +9,6 @@ $sql="Update member set description='".$_POST["memberName"]."',excelAbility='".$
     "noticeAbility='".$_POST["notice"]."',systemAbility='".$_POST["system"]."',userAbility='".$_POST["user"]."' ".
     " where id='".$_POST["id"]."'";
 $result=mysql_query($sql);
+
 
 echo 1;

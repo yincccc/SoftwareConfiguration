@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -40,7 +40,7 @@ require "sql.php";
 <div class="col-md-offset-2 col-md-8 add-wrapper" style="min-height: 600px">
     <span class="container-fluid ">
         <h3>系统管理</h3>
-    </span>
+    </span> 
 
     <!--分割线-->
     <hr style="border: 1px solid #666666;border-left: none;border-right: none" />

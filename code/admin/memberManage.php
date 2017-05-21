@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -23,6 +23,7 @@
 <?php
 require "sql.php";
 require "../inf/utils/convertor.php";
+
 
 $sql="SELECT * from member";
 $result=mysql_query($sql);
