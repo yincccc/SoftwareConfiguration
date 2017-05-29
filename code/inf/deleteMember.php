@@ -2,6 +2,7 @@
 session_start();
 /**
  * Created by 高凯辉 on 2017-05-26.
+ * 删除角色
  */
 
 require "../admin/sql.php";
